@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_encrypt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Type text which you want to encrypt" />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_encrypted_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do encrypt"
+            android:textAllCaps="false" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            tools:text="Encrypted message"
+            android:id="@+id/tv_encrypted_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_copy_encrypted_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copy encrypted message and clear"
+            android:textAllCaps="false" />
+
+        <EditText
+            android:id="@+id/et_decrypt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Type text which you want to decrypt" />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_decrypted_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do decrypt"
+            android:textAllCaps="false" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/tv_decrypted_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_copy_decrypted_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copy decrypted and clear"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
