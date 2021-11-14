@@ -3,7 +3,7 @@
     {
       "id": 97,
       "targetType": "Offers",
-      "targetType": "865",
+      "targetId": "865",
       "creationDate": "2021-11-08",
       "title": "upto 50% DISCOUNT at Royal Malabar Lifestyle - Fashion Mall",
       "details": "End of season SALE |  Biggest DHAMAKA of the year",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "targetType": "Offers",
-      "targetType": "859",
+      "targetId": "859",
       "creationDate": "2021-11-08",
       "title": "Get this stylish & fashionable short tunic that is perfect for this pre-winter season with 30% discount!!",
       "details": "Get this stylish & fashionable short tunic that is perfect for this pre-winter season with 30% discount!!\r\nShop Now: cutt.ly/nR33Vcm",
